@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root{
+  --bg:#0F0F10;
+  --surface:#1A1A1D;
+  --card:#242428;
+  --primary:#F97316;
+  --primary-hover:#EA580C;
+  --text:#FFFFFF;
+  --muted:#9CA3AF;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Sora",sans-serif;
+}
